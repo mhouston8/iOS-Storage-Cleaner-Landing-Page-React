@@ -1,4 +1,5 @@
 import './App.css'
+import analysisResultsScreenshot from './assets/analysis-results.png'
 
 function App() {
   return (
@@ -72,54 +73,11 @@ function App() {
             <div className="phone-mockup">
               <div className="phone-screen">
                 <div className="phone-notch" />
-                <div className="phone-content">
-                  <div className="phone-header">
-                    <h3>Storage Analysis</h3>
-                    <p>Last scan: Just now</p>
-                  </div>
-                  <div className="storage-ring">
-                    <svg viewBox="0 0 128 128">
-                      <defs>
-                        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#00d4aa" />
-                          <stop offset="100%" stopColor="#7c3aed" />
-                        </linearGradient>
-                      </defs>
-                      <circle className="bg-circle" cx="64" cy="64" r="60" />
-                      <circle className="progress-circle" cx="64" cy="64" r="60" />
-                    </svg>
-                    <div className="storage-text">
-                      <div className="value">8.4 GB</div>
-                      <div className="label">To Clean</div>
-                    </div>
-                  </div>
-                  <div className="clean-items">
-                    <div className="clean-item">
-                      <div className="clean-item-icon photos">📸</div>
-                      <div className="clean-item-info">
-                        <h4>Similar Photos</h4>
-                        <p>847 photos found</p>
-                      </div>
-                      <div className="clean-item-size">4.2 GB</div>
-                    </div>
-                    <div className="clean-item">
-                      <div className="clean-item-icon cache">📦</div>
-                      <div className="clean-item-info">
-                        <h4>App Cache</h4>
-                        <p>12 apps</p>
-                      </div>
-                      <div className="clean-item-size">2.8 GB</div>
-                    </div>
-                    <div className="clean-item">
-                      <div className="clean-item-icon duplicates">📋</div>
-                      <div className="clean-item-info">
-                        <h4>Duplicates</h4>
-                        <p>234 files</p>
-                      </div>
-                      <div className="clean-item-size">1.4 GB</div>
-                    </div>
-                  </div>
-                </div>
+                <img 
+                  src={analysisResultsScreenshot} 
+                  alt="Analysis Results Screen" 
+                  className="phone-screenshot"
+                />
               </div>
             </div>
           </div>
