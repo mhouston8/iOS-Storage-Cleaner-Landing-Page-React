@@ -19,7 +19,6 @@ function App() {
             <ul className="nav-links">
               <li><a href="#features">Features</a></li>
               <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#reviews">Reviews</a></li>
             </ul>
           </nav>
           <a href="#download" className="download-btn">Download Free</a>
@@ -96,50 +95,34 @@ function App() {
 
         <div className="features-grid">
           <div className="feature-card">
-            <div className="feature-icon clean">🧹</div>
-            <h3 className="feature-title">Deep Clean</h3>
-            <p className="feature-description">
-              Scans every corner of your device to find hidden junk files, temporary data, and forgotten downloads.
-            </p>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-icon smart">🧠</div>
-            <h3 className="feature-title">Smart Detection</h3>
-            <p className="feature-description">
-              AI-powered analysis identifies what's safe to delete while protecting your important files and memories.
-            </p>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-icon fast">⚡</div>
-            <h3 className="feature-title">Lightning Fast</h3>
-            <p className="feature-description">
-              Complete scans in under 30 seconds. One-tap cleaning gets you back gigabytes instantly.
-            </p>
-          </div>
-
-          <div className="feature-card">
-            <div className="feature-icon secure">🔒</div>
-            <h3 className="feature-title">Privacy First</h3>
-            <p className="feature-description">
-              All processing happens on-device. Your data never leaves your phone—we can't see it even if we wanted to.
-            </p>
-          </div>
-
-          <div className="feature-card">
             <div className="feature-icon duplicates">📸</div>
-            <h3 className="feature-title">Photo Cleanup</h3>
+            <h3 className="feature-title">Duplicate Photo Detection</h3>
             <p className="feature-description">
-              Find and remove duplicate photos, blurry shots, and screenshots you no longer need.
+              Automatically finds and identifies duplicate photos in your library. Review and remove duplicates to free up valuable storage space.
             </p>
           </div>
 
           <div className="feature-card">
-            <div className="feature-icon organize">📊</div>
-            <h3 className="feature-title">Storage Insights</h3>
+            <div className="feature-icon contacts">👥</div>
+            <h3 className="feature-title">Duplicate Contacts Detection</h3>
             <p className="feature-description">
-              Visual breakdown of what's using your space. Understand your storage at a glance.
+              Detects duplicate contacts across your address book. Merge or remove duplicates to keep your contacts organized and save space.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon files">📁</div>
+            <h3 className="feature-title">Large File Detection</h3>
+            <p className="feature-description">
+              Identifies large files taking up space on your device. Easily find and manage files over 100MB to reclaim storage.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon compress">🗜️</div>
+            <h3 className="feature-title">Photo Compression</h3>
+            <p className="feature-description">
+              Compress your photos to reduce file size while maintaining quality. Save gigabytes without losing visual quality.
             </p>
           </div>
         </div>
@@ -183,61 +166,6 @@ function App() {
               <p className="step-description">
                 Review what we found, tap clean, and watch gigabytes of space return to your device instantly.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="testimonials" id="reviews">
-        <div className="section-header">
-          <span className="section-tag">Reviews</span>
-          <h2 className="section-title">Loved by Thousands</h2>
-          <p className="section-description">
-            See what our users are saying about Storage Optimizer.
-          </p>
-        </div>
-
-        <div className="testimonials-grid">
-          <div className="testimonial-card">
-            <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-text">
-              "I was constantly getting storage warnings. Storage Optimizer found 12GB of junk I didn't even know existed. My phone feels brand new!"
-            </p>
-            <div className="testimonial-author">
-              <div className="testimonial-avatar">SK</div>
-              <div className="testimonial-info">
-                <h4>Sarah K.</h4>
-                <p>iPhone 15 Pro User</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="testimonial-card">
-            <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-text">
-              "The duplicate photo finder is incredible. It found hundreds of nearly identical shots and let me keep just the best ones."
-            </p>
-            <div className="testimonial-author">
-              <div className="testimonial-avatar">MR</div>
-              <div className="testimonial-info">
-                <h4>Mike R.</h4>
-                <p>Photographer</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="testimonial-card">
-            <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-text">
-              "Finally, an app that respects my privacy. Everything stays on my phone and it actually works. Highly recommend!"
-            </p>
-            <div className="testimonial-author">
-              <div className="testimonial-avatar">JL</div>
-              <div className="testimonial-info">
-                <h4>Jessica L.</h4>
-                <p>Privacy Advocate</p>
-              </div>
             </div>
           </div>
         </div>
