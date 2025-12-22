@@ -13,7 +13,7 @@ function App() {
         <div className="header-content">
           <a href="#" className="logo">
             <div className="logo-icon">🧹</div>
-            CleanSpace
+            Storage Optimizer
           </a>
           <nav>
             <ul className="nav-links">
@@ -38,7 +38,7 @@ function App() {
               Free Up <span className="highlight">Gigabytes</span> of Space in Seconds
             </h1>
             <p className="hero-description fade-in-up delay-2">
-              CleanSpace intelligently identifies and removes junk files, duplicate photos, 
+              Storage Optimizer intelligently identifies and removes junk files, duplicate photos, 
               and cached data. Reclaim your iPhone's storage without losing what matters.
             </p>
             <div className="hero-cta fade-in-up delay-3">
@@ -161,7 +161,7 @@ function App() {
             <div className="step-content">
               <h3 className="step-title">Download & Open</h3>
               <p className="step-description">
-                Get CleanSpace free from the App Store. Open the app and grant photo access to enable full scanning capabilities.
+                Get Storage Optimizer free from the App Store. Open the app and grant photo access to enable full scanning capabilities.
               </p>
             </div>
           </div>
@@ -194,7 +194,7 @@ function App() {
           <span className="section-tag">Reviews</span>
           <h2 className="section-title">Loved by Thousands</h2>
           <p className="section-description">
-            See what our users are saying about CleanSpace.
+            See what our users are saying about Storage Optimizer.
           </p>
         </div>
 
@@ -202,7 +202,7 @@ function App() {
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
             <p className="testimonial-text">
-              "I was constantly getting storage warnings. CleanSpace found 12GB of junk I didn't even know existed. My phone feels brand new!"
+              "I was constantly getting storage warnings. Storage Optimizer found 12GB of junk I didn't even know existed. My phone feels brand new!"
             </p>
             <div className="testimonial-author">
               <div className="testimonial-avatar">SK</div>
@@ -249,7 +249,7 @@ function App() {
           <div className="cta-content">
             <h2 className="cta-title">Ready to Reclaim Your Storage?</h2>
             <p className="cta-description">
-              Join over 500,000 users who've freed up space on their iPhones. Download CleanSpace free today.
+              Join over 500,000 users who've freed up space on their iPhones. Download Storage Optimizer free today.
             </p>
             <div className="cta-buttons">
               <a href="#" className="cta-primary">
@@ -268,7 +268,7 @@ function App() {
         <div className="footer-content">
           <div className="footer-logo">
             <div className="logo-icon">🧹</div>
-            CleanSpace
+            Storage Optimizer
           </div>
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
@@ -278,7 +278,7 @@ function App() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 CleanSpace. All rights reserved. Made with ❤️ for a cleaner iPhone.</p>
+          <p>© 2024 Storage Optimizer. All rights reserved. Made with ❤️ for a cleaner iPhone.</p>
         </div>
       </footer>
     </div>
