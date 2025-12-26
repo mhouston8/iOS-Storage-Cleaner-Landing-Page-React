@@ -1,5 +1,6 @@
 import './App.css'
 import analysisResultsScreenshot from './assets/analysis-results.png'
+import appLogo from './assets/app-logo.png'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <header className="header">
         <div className="header-content">
           <a href="#" className="logo">
-            <div className="logo-icon">🧹</div>
+            <img src={appLogo} alt="Clean Sweep AI Logo" className="logo-icon" />
             Clean Sweep AI
           </a>
           <nav>
@@ -195,7 +196,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-logo">
-            <div className="logo-icon">🧹</div>
+            <img src={appLogo} alt="Clean Sweep AI Logo" className="logo-icon" />
             Clean Sweep AI
           </div>
           <div className="footer-links">
